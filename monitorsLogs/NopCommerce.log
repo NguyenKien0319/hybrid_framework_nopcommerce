@@ -1,0 +1,8 @@
+[INFO ] [2021-11-02 21:55:55,719] ---------- START delete file in folder ----------
+[INFO ] [2021-11-02 21:55:55,720] ---------- END delete file in folder ----------
+[INFO ] [2021-11-02 21:55:55,722] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2021-11-02 21:56:04,133] Pre-condition - 01: Open Home Page
+[INFO ] [2021-11-02 21:56:04,136] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2021-11-02 21:56:06,311] Register_00 - Step_01: Open Register Page
+[INFO ] [2021-11-02 21:56:06,312] Register_00 - Step_02: Click to Register button
+[INFO ] [2021-11-02 21:56:06,579] Register_00 - Step_03: Verify validation error message display
