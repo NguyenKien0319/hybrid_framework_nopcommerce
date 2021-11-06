@@ -1,5 +1,6 @@
 package commons;
 
+
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -468,7 +469,8 @@ public class BasePage {
 			e.printStackTrace();
 		}
 	}
-
+	
+	//Pattern Object
 	public void clickToHeaderTextLinkByName(WebDriver driver, String headerName) {
 		waitForElementClickable(driver, BasePageUI.HEADER_TEXT_LINK_BY_NAME, headerName);
 		clickToElement(driver, BasePageUI.HEADER_TEXT_LINK_BY_NAME, headerName);
@@ -482,6 +484,20 @@ public class BasePage {
 	public boolean displayedErrorMessageByText(WebDriver driver, String validationText) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_VALIDATION_MESSAGE_BY_TEXT, validationText);
 		return isElementDisplayed(driver, BasePageUI.DYNAMIC_VALIDATION_MESSAGE_BY_TEXT, validationText);
+	}
+	
+	public void selectRadioButtonByLabel(WebDriver driver, String labelName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_LABEL,labelName);
+		checkTheCheckBoxOrRadio(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_LABEL,labelName);
+	}
+	
+	public void enterTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendsKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
+	}
+	
+	public String getEmailValue(WebDriver driver, String attribute, String nameID ) {
+		return getElementAttributeValue(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", "Email");
 	}
 	
 	private WebDriverWait explicitWait;
