@@ -14,8 +14,10 @@
   <test name="Run on Firefox">
   	<parameter name = "browser" value = "FireFox" />
     <classes>
-      <class name="com.nopcommerce.register.Register_Account"/>
-      <class name="com.nopcommerce.login.Login_Account"/>
+<!--       <class name="com.nopcommerce.register.Register_Account"/> -->
+      <class name="com.nomcommerce.common.Common_01_Login"/>
+<!--       <class name="com.nopcommerce.login.Login_Account"/> -->
+      <class name="com.nopcommerce.myaccount.My_Account"/>
     </classes>
   </test> 
   

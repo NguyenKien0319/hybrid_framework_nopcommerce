@@ -56,6 +56,14 @@ public class BaseTest {
 		Random rand = new Random();
 		return "testing" + rand.nextInt(999999) + "@hotmail.com";
 	}
+	
+	protected void sleepInSecond(long timeoutInSecond) {
+		try {
+			Thread.sleep(timeoutInSecond * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public WebDriver getDriver() {
 		return this.driver;
