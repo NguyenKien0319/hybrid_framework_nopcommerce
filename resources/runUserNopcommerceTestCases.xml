@@ -15,6 +15,7 @@
   	<parameter name = "browser" value = "FireFox" />
     <classes>
       <class name="com.nopcommerce.register.Register_Account"/>
+      <class name="com.nopcommerce.login.Login_Account"/>
     </classes>
   </test> 
   

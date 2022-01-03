@@ -52,7 +52,7 @@ public class BaseTest {
 		return driver;
 	}
 	
-	protected String getRandomEmail() {
+	protected static String getRandomEmail() {
 		Random rand = new Random();
 		return "testing" + rand.nextInt(999999) + "@hotmail.com";
 	}

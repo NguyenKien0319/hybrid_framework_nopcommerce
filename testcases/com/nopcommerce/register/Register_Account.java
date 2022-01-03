@@ -1,36 +1,32 @@
 package com.nopcommerce.register;
 
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.user.nopCommerce.HomePagePO;
 import pageObjects.user.nopCommerce.PageGeneratorManager;
 import pageObjects.user.nopCommerce.RegisterPO;
-import pageUIs.user.nopCommerce.BasePageUI;
-import pageUIs.user.nopCommerce.RegisterPageUI;
 
 public class Register_Account extends BaseTest {
 	private WebDriver driver;
 	private HomePagePO homePage;
 	private RegisterPO registerPage;
-	private String invalidEmail, firstName, lastName, emailAddress, password, invalidPassword, duplicateEmail;
+	private String  firstName, lastName, invalidPassword, duplicateEmail;
+	public static String emailAddress = getRandomEmail();
 
 	@Parameters({ "browser", "url" })
-	@BeforeTest
-	public void BeforeTest(String browserName, String appUrl) {
-		invalidEmail = "testing";
+	@BeforeClass
+	public void BeforeClass(String browserName, String appUrl) {
 		firstName = "Automation";
 		lastName = "Testing";
-		emailAddress = getRandomEmail();
-		password = "123456";
 		invalidPassword = "123";
 
 		log.info("Pre-condition: Open browser '" + browserName + "' with URL: '" + appUrl + "'");
@@ -69,17 +65,17 @@ public class Register_Account extends BaseTest {
 		log.info("Register_01 - Step_03: Input FirstName: '" + firstName + "'");
 		registerPage.enterTextboxByID(driver, "FirstName", firstName);
 
-		log.info("Register_01 - Step_04: Input FirstName: '" + lastName + "'");
+		log.info("Register_01 - Step_04: Input LastName: '" + lastName + "'");
 		registerPage.enterTextboxByID(driver, "LastName", lastName);
 
-		log.info("Register_01 - Step_05: Input invalid email: '" + invalidEmail + "'");
-		registerPage.enterTextboxByID(driver, "Email", invalidEmail);
+		log.info("Register_01 - Step_05: Input invalid email: '" + GlobalConstants.INVALID_EMAIL + "'");
+		registerPage.enterTextboxByID(driver, "Email", GlobalConstants.INVALID_EMAIL);
 
-		log.info("Register_01 - Step_06: Input password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "Password", password);
+		log.info("Register_01 - Step_06: Input password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "Password", GlobalConstants.PASSWORD);
 
-		log.info("Register_01 - Step_07: Input confirm password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "ConfirmPassword", password);
+		log.info("Register_01 - Step_07: Input confirm password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "ConfirmPassword", GlobalConstants.PASSWORD);
 
 		log.info("Register_01 - Step_08: Click to 'Register' button");
 		registerPage.clickToButtonByName(driver, "Register");
@@ -99,7 +95,7 @@ public class Register_Account extends BaseTest {
 		log.info("Register_02 - Step_03: Input FirstName: '" + firstName + "'");
 		registerPage.enterTextboxByID(driver, "FirstName", firstName);
 
-		log.info("Register_02 - Step_04: Input FirstName: '" + lastName + "'");
+		log.info("Register_02 - Step_04: Input LastName: '" + lastName + "'");
 		registerPage.enterTextboxByID(driver, "LastName", lastName);
 
 		log.info("Register_02 - Step_05: Input invalid email: '" + emailAddress + "'");
@@ -129,14 +125,14 @@ public class Register_Account extends BaseTest {
 		log.info("Register_03 - Step_03: Input FirstName: '" + firstName + "'");
 		registerPage.enterTextboxByID(driver, "FirstName", firstName);
 
-		log.info("Register_03 - Step_04: Input FirstName: '" + lastName + "'");
+		log.info("Register_03 - Step_04: Input LastName: '" + lastName + "'");
 		registerPage.enterTextboxByID(driver, "LastName", lastName);
 
 		log.info("Register_03 - Step_05: Input invalid email: '" + emailAddress + "'");
 		registerPage.enterTextboxByID(driver, "Email", emailAddress);
 
-		log.info("Register_03 - Step_06: Input password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "Password", password);
+		log.info("Register_03 - Step_06: Input password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "Password", GlobalConstants.PASSWORD);
 
 		log.info("Register_03 - Step_07: Input confirm password: '" + firstName + "'");
 		registerPage.enterTextboxByID(driver, "ConfirmPassword", firstName);
@@ -161,18 +157,18 @@ public class Register_Account extends BaseTest {
 		log.info("Register_04 - Step_03: Input FirstName: '" + firstName + "'");
 		registerPage.enterTextboxByID(driver, "FirstName", firstName);
 
-		log.info("Register_04 - Step_04: Input FirstName: '" + lastName + "'");
+		log.info("Register_04 - Step_04: Input LastName: '" + lastName + "'");
 		registerPage.enterTextboxByID(driver, "LastName", lastName);
 
-		log.info("Register_04 - Step_05: Input invalid email: '" + emailAddress + "'");
+		log.info("Register_04 - Step_05: Input valid email: '" + emailAddress + "'");
 		registerPage.enterTextboxByID(driver, "Email", emailAddress);
 		duplicateEmail = registerPage.getEmailValue(driver, "value", "Email");
 
-		log.info("Register_04 - Step_06: Input password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "Password", password);
+		log.info("Register_04 - Step_06: Input password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "Password", GlobalConstants.PASSWORD);
 
-		log.info("Register_04 - Step_07: Input confirm password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "ConfirmPassword", password);
+		log.info("Register_04 - Step_07: Input confirm password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "ConfirmPassword", GlobalConstants.PASSWORD);
 
 		log.info("Register_04 - Step_08: Click to 'Register' button");
 		registerPage.clickToButtonByName(driver, "Register");
@@ -197,17 +193,17 @@ public class Register_Account extends BaseTest {
 		log.info("Register_05 - Step_04: Input FirstName: '" + firstName + "'");
 		registerPage.enterTextboxByID(driver, "FirstName", firstName);
 
-		log.info("Register_05 - Step_05: Input FirstName: '" + lastName + "'");
+		log.info("Register_05 - Step_05: Input LastName: '" + lastName + "'");
 		registerPage.enterTextboxByID(driver, "LastName", lastName);
 
 		log.info("Register_05 - Step_06: Input invalid email: '" + duplicateEmail + "'");
 		registerPage.enterTextboxByID(driver, "Email", duplicateEmail);
 
-		log.info("Register_05 - Step_07: Input password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "Password", password);
+		log.info("Register_05 - Step_07: Input password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "Password", GlobalConstants.PASSWORD);
 
-		log.info("Register_05 - Step_08: Input confirm password: '" + password + "'");
-		registerPage.enterTextboxByID(driver, "ConfirmPassword", password);
+		log.info("Register_05 - Step_08: Input confirm password: '" + GlobalConstants.PASSWORD + "'");
+		registerPage.enterTextboxByID(driver, "ConfirmPassword", GlobalConstants.PASSWORD);
 
 		log.info("Register_05 - Step_09: Click to 'Register' button");
 		registerPage.clickToButtonByName(driver, "Register");
