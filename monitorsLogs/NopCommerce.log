@@ -839,3 +839,928 @@ Session ID: 9eeda644-44ac-45e2-b4e5-98e97ca65851
 [INFO ] [2022-01-02 21:35:00,410]  -------------------------- PASSED -------------------------- 
 [INFO ] [2022-01-02 21:35:00,411] OS name = windows 10
 [INFO ] [2022-01-02 21:35:00,411] Driver instance name = windows 10
+[INFO ] [2022-01-03 15:32:37,071] ---------- START delete file in folder ----------
+[INFO ] [2022-01-03 15:32:37,072] ---------- END delete file in folder ----------
+[INFO ] [2022-01-03 15:32:37,078] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-03 15:32:44,527] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-03 15:32:44,561] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2022-01-03 15:32:46,163] Register_00 - Step_01: Open Register Page
+[INFO ] [2022-01-03 15:32:46,166] Register_00 - Step_02: Click to Register button
+[INFO ] [2022-01-03 15:32:46,481] Register_00 - Step_03: Verify validation error message display
+[INFO ] [2022-01-03 15:32:46,778] Register_01 - Step_01: Refresh page
+[INFO ] [2022-01-03 15:32:48,248] Register_01 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-01-03 15:32:48,564] Register_01 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-01-03 15:32:48,667] Register_01 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-01-03 15:32:48,740] Register_01 - Step_05: Input invalid email: 'testing'
+[INFO ] [2022-01-03 15:32:48,803] Register_01 - Step_06: Input password: '123456'
+[INFO ] [2022-01-03 15:32:48,875] Register_01 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-01-03 15:32:48,948] Register_01 - Step_08: Click to 'Register' button
+[INFO ] [2022-01-03 15:32:49,216] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+[INFO ] [2022-01-03 15:32:49,280] Register_02 - Step_01: Refresh Page
+[INFO ] [2022-01-03 15:32:50,943] Register_02 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-01-03 15:32:51,217] Register_02 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-01-03 15:32:51,284] Register_02 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-01-03 15:32:51,354] Register_02 - Step_05: Input invalid email: 'testing177705@hotmail.com'
+[INFO ] [2022-01-03 15:32:51,427] Register_02 - Step_06: Input password: '123'
+[INFO ] [2022-01-03 15:32:51,486] Register_02 - Step_07: Input confirm password: '123'
+[INFO ] [2022-01-03 15:32:51,551] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-01-03 15:32:51,826] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+[INFO ] [2022-01-03 15:32:51,872] Register_03 - Step_01: Refresh Page
+[INFO ] [2022-01-03 15:32:53,432] Register_03 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-01-03 15:32:53,705] Register_03 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-01-03 15:32:53,770] Register_03 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-01-03 15:32:53,835] Register_03 - Step_05: Input invalid email: 'testing177705@hotmail.com'
+[INFO ] [2022-01-03 15:32:53,904] Register_03 - Step_06: Input password: '123456'
+[INFO ] [2022-01-03 15:32:53,967] Register_03 - Step_07: Input confirm password: 'Automation'
+[INFO ] [2022-01-03 15:32:54,030] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-01-03 15:32:54,807] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+[INFO ] [2022-01-03 15:32:54,858] Register_04 - Step_01: Refresh Page
+[INFO ] [2022-01-03 15:32:56,489] Register_04 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-01-03 15:32:56,763] Register_04 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-01-03 15:32:56,832] Register_04 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-01-03 15:32:56,900] Register_04 - Step_05: Input valid email: 'testing177705@hotmail.com'
+[INFO ] [2022-01-03 15:32:56,984] Register_04 - Step_06: Input password: '123456'
+[INFO ] [2022-01-03 15:32:57,042] Register_04 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-01-03 15:32:57,100] Register_04 - Step_08: Click to 'Register' button
+[INFO ] [2022-01-03 15:32:59,629] Register_04 - Step_09: Verify register success message displayed 
+[INFO ] [2022-01-03 15:32:59,690] Register_05 - Step_01: Click to 'Logout' button
+[INFO ] [2022-01-03 15:33:01,408] Register_05 - Step_02: Click to 'Register' button
+[INFO ] [2022-01-03 15:33:01,994] Register_05 - Step_03: Select Radio button: 'Male'
+[INFO ] [2022-01-03 15:33:02,288] Register_05 - Step_04: Input FirstName: 'Automation'
+[INFO ] [2022-01-03 15:33:02,356] Register_05 - Step_05: Input LastName: 'Testing'
+[INFO ] [2022-01-03 15:33:02,422] Register_05 - Step_06: Input invalid email: 'testing177705@hotmail.com'
+[INFO ] [2022-01-03 15:33:02,489] Register_05 - Step_07: Input password: '123456'
+[INFO ] [2022-01-03 15:33:02,550] Register_05 - Step_08: Input confirm password: '123456'
+[INFO ] [2022-01-03 15:33:02,610] Register_05 - Step_09: Click to 'Register' button
+[INFO ] [2022-01-03 15:33:03,987] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+[INFO ] [2022-01-03 15:33:04,035] OS name = windows 10
+[INFO ] [2022-01-03 15:33:04,035] Driver instance name = windows 10
+[INFO ] [2022-01-03 15:33:04,950] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-03 15:33:09,731] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-03 15:33:09,732] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-03 15:33:11,003] Login_01 - Step 00: Open LoginPage
+[INFO ] [2022-01-03 15:33:11,011] Login_01 - Step 01: Click to Login Button
+[INFO ] [2022-01-03 15:33:11,289] Login_01 - Step 02: Verify error message displayed
+[INFO ] [2022-01-03 15:33:11,330]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-03 15:33:11,332] Login_02 - Step 01: Refresh Page
+[INFO ] [2022-01-03 15:33:12,921] Login_02 - Step 02: Input valid Email
+[INFO ] [2022-01-03 15:33:12,977] Login_02 - Step 03: Click Login button
+[INFO ] [2022-01-03 15:33:13,243] Login_02 - Step 04: Verify error message displayed
+[INFO ] [2022-01-03 15:33:13,285]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-03 15:33:13,288] Login_03 - Step 01: Refresh Page
+[INFO ] [2022-01-03 15:33:18,514] Login_03 - Step 02: Input Email not registered
+[INFO ] [2022-01-03 15:33:18,579] Login_03 - Step 03: Click Login button
+[INFO ] [2022-01-03 15:33:19,822] Login_03 - Step 04: Verify error message displayed
+[INFO ] [2022-01-03 15:33:19,861]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-03 15:33:19,862] Login_04 - Step 01: Input valid Email 
+[INFO ] [2022-01-03 15:33:19,934] Login_04 - Step 02: Click Login button
+[INFO ] [2022-01-03 15:33:21,341] Login_04 - Step 03: Verify error message displayed
+[INFO ] [2022-01-03 15:33:21,390]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-03 15:33:21,391] Login_05 - Step 01: Input valid Email 
+[INFO ] [2022-01-03 15:33:21,458] Login_05 - Step 02: Input invalid Password
+[INFO ] [2022-01-03 15:33:21,512] Login_05 - Step 03: Click Login button
+[INFO ] [2022-01-03 15:33:22,058] Login_05 - Step 04: Verify error message displayed
+[INFO ] [2022-01-03 15:33:22,104]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-03 15:33:22,106] Login_06 - Step 01: Input valid Email 
+[INFO ] [2022-01-03 15:33:22,174] Login_06 - Step 02: Input valid Password
+[INFO ] [2022-01-03 15:33:22,228] Login_06 - Step 03: Click Login button
+[INFO ] [2022-01-03 15:33:24,741] Login_06 - Step 04: Open HomePage
+[INFO ] [2022-01-03 15:33:24,741] Login_06 - Step 04: Verify Logout button displayed
+[INFO ] [2022-01-03 15:33:24,800]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-03 15:33:24,801] OS name = windows 10
+[INFO ] [2022-01-03 15:33:24,801] Driver instance name = windows 10
+[INFO ] [2022-01-03 17:07:39,093] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-03 17:07:43,382] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-03 17:07:43,382] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-03 17:07:44,649] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-03 17:07:44,649] Pre-condition - 04: Set all cookies to Login
+[INFO ] [2022-01-03 17:07:45,692] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-03 17:07:45,692] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-03 17:15:06,405] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-03 17:15:10,676] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-03 17:15:10,676] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-03 17:15:11,982] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-03 17:15:11,982] Pre-condition - 04: Set all cookies to Login
+[INFO ] [2022-01-03 17:15:13,012] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-03 17:15:13,012] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-03 17:25:31,753] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-03 17:25:35,980] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-03 17:25:35,980] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-03 17:25:37,203] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-03 17:25:37,203] Pre-condition - 04: Set all cookies to Login
+[INFO ] [2022-01-03 17:25:38,230] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-03 17:25:38,230] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-03 17:30:58,374] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-03 17:31:02,691] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-03 17:31:02,692] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-03 17:31:03,928] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-03 17:31:03,928] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-03 17:31:06,452] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-03 17:31:06,452] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-03 17:31:06,488]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-04 20:49:03,657] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-04 20:49:07,501] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-04 20:49:07,501] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-04 20:49:08,113] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-04 20:49:08,113] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-04 20:49:10,574] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-04 20:49:10,574] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-04 20:49:10,606]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:16:03,404] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-05 07:16:07,858] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-05 07:16:07,858] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-05 07:16:09,141] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-05 07:16:09,141] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-05 07:16:11,766] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-05 07:16:11,766] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-05 07:16:11,818]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:16:11,819] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-05 07:16:13,086] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-05 07:16:13,086] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-05 07:16:13,087] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-05 07:16:13,134]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:16:13,142] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-05 07:16:13,416] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-05 07:22:53,811] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-05 07:22:58,129] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-05 07:22:58,130] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-05 07:22:59,467] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-05 07:22:59,468] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-05 07:23:02,045] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-05 07:23:02,045] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-05 07:23:02,093]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:23:02,093] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-05 07:23:02,586] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-05 07:23:02,586] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-05 07:23:02,586] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-05 07:23:02,646]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:23:02,654] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-05 07:23:02,928] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-05 07:23:03,005] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-05 07:23:03,070] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-05 07:25:50,371] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-05 07:25:55,248] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-05 07:25:55,248] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-05 07:25:56,491] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-05 07:25:56,491] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-05 07:25:59,115] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-05 07:25:59,115] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-05 07:25:59,162]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:25:59,162] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-05 07:25:59,647] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-05 07:25:59,648] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-05 07:25:59,648] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-05 07:25:59,702]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:25:59,709] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-05 07:25:59,972] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-05 07:26:00,047] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-05 07:26:00,114] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-05 07:26:00,964] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-05 07:26:01,037] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-05 07:26:01,095] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-05 07:26:03,578]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:26:03,612]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:27:53,558] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-05 07:27:58,597] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-05 07:27:58,597] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-05 07:27:59,168] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-05 07:27:59,169] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-05 07:28:01,778] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-05 07:28:01,778] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-05 07:28:01,833]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:01,833] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-05 07:28:03,048] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-05 07:28:03,049] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-05 07:28:03,049] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-05 07:28:03,114]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:03,125] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-05 07:28:03,399] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-05 07:28:03,478] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-05 07:28:03,561] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-05 07:28:04,435] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-05 07:28:04,508] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-05 07:28:04,580] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-05 07:28:05,139]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:05,181]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:05,263]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:05,309]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:05,494]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:05,589]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 07:28:06,039]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 16:59:31,595] OS name = windows 10
+[INFO ] [2022-01-05 16:59:31,597] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2022-01-05 17:01:36,236] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-05 17:01:39,441] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-05 17:01:39,441] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-05 17:01:40,677] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-05 17:01:40,677] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-05 17:01:43,180] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-05 17:01:43,180] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-05 17:01:43,217]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:43,217] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-05 17:01:44,346] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-05 17:01:44,347] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-05 17:01:44,347] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-05 17:01:44,389]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:44,394] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-05 17:01:44,645] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-05 17:01:44,701] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-05 17:01:44,752] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-05 17:01:45,560] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-05 17:01:45,623] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-05 17:01:45,668] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-05 17:01:47,990] MyAccount - Step 08: Verify update Gender Female success
+[INFO ] [2022-01-05 17:01:48,025]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,026] MyAccount - Step 09: Verify update FirstName to Automation success
+[INFO ] [2022-01-05 17:01:48,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,059] MyAccount - Step 10: Verify update LastName to Testing success
+[INFO ] [2022-01-05 17:01:48,091]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,091] MyAccount - Step 11:  Verify update Birthday to 22-July-1999 success
+[INFO ] [2022-01-05 17:01:48,238]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,324]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,704]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,704] MyAccount - Step 12:  Verify update AutomationFC success
+[INFO ] [2022-01-05 17:01:48,740]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-05 17:01:48,745] OS name = windows 10
+[INFO ] [2022-01-05 17:01:48,745] Driver instance name = windows 10
+[INFO ] [2022-01-08 19:17:03,769] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:17:08,692] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:17:08,693] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:17:09,984] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:17:09,984] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:17:12,443] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:17:12,443] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:17:12,491]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:17:12,491] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:17:13,566] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:17:13,567] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:17:13,567] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:17:13,624]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:23:36,616] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:23:41,650] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:23:41,650] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:23:43,125] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:23:43,125] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:23:45,926] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:23:45,927] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:23:45,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:23:45,978] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:23:47,169] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:23:47,170] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:23:47,170] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:23:47,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:24:36,937] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:24:41,086] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:24:41,086] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:24:42,295] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:24:42,295] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:24:44,808] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:24:44,808] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:24:44,852]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:24:44,853] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:24:45,878] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:24:45,879] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:24:45,879] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:24:45,926]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:26:54,333] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:26:59,144] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:26:59,144] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:27:00,435] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:27:00,435] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:27:03,066] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:27:03,066] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:27:03,110]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:27:03,110] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:27:04,434] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:27:04,435] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:27:04,435] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:27:04,498]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:31:47,178] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:31:51,903] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:31:51,904] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:31:53,085] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:31:53,085] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:31:55,470] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:31:55,470] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:31:55,521]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:31:55,521] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:31:56,570] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:31:56,572] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:31:56,572] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:31:56,624]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:35:02,716] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:35:06,813] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:35:06,814] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:35:07,964] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:35:07,965] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:35:10,597] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:35:10,597] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:35:10,645]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:35:10,645] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:35:11,848] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:35:11,849] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:35:11,849] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:35:11,906]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:35:18,584]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:35:18,614]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 19:35:18,643]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 19:35:18,673]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:35:18,701]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:35:18,727]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:41:10,227] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:41:14,801] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:41:14,801] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:41:16,066] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:41:16,066] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:41:18,502] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:41:18,502] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:41:18,543]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:41:18,543] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:41:18,961] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:41:18,962] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:41:18,962] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:41:19,008]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:42:51,050] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:42:55,396] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:42:55,396] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:42:56,645] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:42:56,645] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:42:58,981] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:42:58,981] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:42:59,021]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:42:59,021] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:43:00,119] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:43:00,120] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:43:00,120] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:43:00,163]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:44:17,102] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:44:21,247] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:44:21,248] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:44:22,468] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:44:22,468] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:44:24,915] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:44:24,915] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:44:24,950]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:44:24,950] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:44:25,969] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:44:25,970] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:44:25,970] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:44:26,012]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:44:32,402]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:44:32,429]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 19:44:32,455]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 19:44:32,480]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:44:32,504]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:44:32,529]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:45:47,695] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:45:52,142] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:45:52,142] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:45:53,240] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:45:53,240] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:45:55,513] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:45:55,513] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:45:55,547]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:45:55,547] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:45:56,564] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:45:56,564] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:45:56,565] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:45:56,599]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:47:29,529] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:47:33,345] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:47:33,345] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:47:34,508] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:47:34,509] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:47:36,943] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:47:36,943] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:47:36,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:47:36,978] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:47:38,283] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:47:38,284] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:47:38,284] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:47:38,319]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:49:23,739] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:49:27,680] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:49:27,680] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:49:28,783] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:49:28,783] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:49:31,407] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:49:31,408] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:49:31,443]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:49:31,443] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:49:32,582] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:49:32,582] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:49:32,582] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:49:32,637]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:55:28,690] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:55:32,683] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:55:32,683] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:55:33,893] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:55:33,893] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:55:36,388] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:55:36,388] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:55:36,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:55:36,423] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:55:37,586] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:55:37,586] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:55:37,587] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:55:37,644]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:17,026] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 19:58:20,866] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 19:58:20,867] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 19:58:21,956] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 19:58:21,957] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 19:58:24,526] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 19:58:24,526] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 19:58:24,562]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:24,562] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 19:58:25,016] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 19:58:25,017] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 19:58:25,017] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 19:58:25,051]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:30,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:30,896]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 19:58:30,922]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 19:58:30,947]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:30,972]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:30,997]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 19:58:46,089] OS name = windows 10
+[INFO ] [2022-01-08 19:58:46,089] Driver instance name = windows 10
+[INFO ] [2022-01-08 20:02:40,777] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 20:02:44,853] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 20:02:44,854] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 20:02:46,087] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 20:02:46,088] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 20:02:48,579] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 20:02:48,579] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 20:02:48,615]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:02:48,615] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 20:02:49,802] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 20:02:49,803] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 20:02:49,803] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 20:02:49,845]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:02:58,892]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:02:58,918]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 20:02:58,944]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-08 20:02:58,969]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:02:58,993]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:02:59,019]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:03:14,122] OS name = windows 10
+[INFO ] [2022-01-08 20:03:14,122] Driver instance name = windows 10
+[INFO ] [2022-01-08 20:18:07,733] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 20:18:11,812] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 20:18:11,812] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 20:18:13,027] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 20:18:13,027] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 20:18:15,487] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 20:18:15,487] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 20:18:15,522]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:18:15,522] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 20:18:16,650] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 20:18:16,651] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 20:18:16,651] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 20:18:16,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:18:20,183] OS name = windows 10
+[INFO ] [2022-01-08 20:18:20,184] Driver instance name = windows 10
+[INFO ] [2022-01-08 20:19:18,474] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 20:19:22,475] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 20:19:22,475] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 20:19:23,586] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 20:19:23,586] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 20:19:26,039] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 20:19:26,039] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 20:19:26,075]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:26,075] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 20:19:27,206] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 20:19:27,206] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 20:19:27,206] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 20:19:27,239]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:30,900]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:30,933]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:30,966]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:30,998]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:31,031]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:31,062]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:19:46,167] OS name = windows 10
+[INFO ] [2022-01-08 20:19:46,167] Driver instance name = windows 10
+[INFO ] [2022-01-08 20:21:01,661] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-08 20:21:05,513] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-08 20:21:05,514] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-08 20:21:06,622] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-08 20:21:06,622] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-08 20:21:08,985] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-08 20:21:08,986] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-08 20:21:09,020]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:09,020] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-08 20:21:10,119] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-08 20:21:10,120] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-08 20:21:10,120] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-08 20:21:10,154]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:15,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:15,505]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:15,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:15,570]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:15,604]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:15,636]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:17,061]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-08 20:21:17,064] OS name = windows 10
+[INFO ] [2022-01-08 20:21:17,064] Driver instance name = windows 10
+[INFO ] [2022-01-09 15:52:03,147] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 15:52:09,189] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 15:52:09,189] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 15:52:10,453] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 15:52:10,453] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-09 15:52:12,959] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 15:52:12,959] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 15:52:13,003]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 15:52:13,003] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 15:52:14,167] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 15:52:14,168] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 15:52:14,168] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 15:52:14,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 15:52:16,753] OS name = windows 10
+[INFO ] [2022-01-09 15:52:16,754] Driver instance name = windows 10
+[INFO ] [2022-01-09 15:56:08,418] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 15:56:12,707] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 15:56:12,708] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 15:56:14,040] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 15:56:14,040] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-09 15:56:16,464] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 15:56:16,464] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 15:56:16,516]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 15:56:16,516] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 15:56:17,676] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 15:56:17,676] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 15:56:17,677] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 15:56:17,725]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 15:56:38,425] OS name = windows 10
+[INFO ] [2022-01-09 15:56:38,426] Driver instance name = windows 10
+[INFO ] [2022-01-09 15:58:11,557] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 15:58:15,722] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 15:58:15,723] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 15:58:16,874] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 15:58:16,874] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-09 15:58:19,385] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 15:58:19,385] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 15:58:19,439]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 15:58:19,439] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 15:58:20,775] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 15:58:20,776] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 15:58:20,776] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 15:58:20,837]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:01:51,655] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:01:56,482] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:01:56,482] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:01:57,763] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:01:57,763] Pre-condition - 04: Set Login page cookie
+[INFO ] [2022-01-09 16:02:00,292] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:02:00,293] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:02:00,340]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:02:00,341] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:02:01,892] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:02:01,893] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:02:01,893] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:02:01,956]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:09:33,131] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:10:36,295] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:10:36,296] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:10:38,575] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:10:40,078] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:10:40,078] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:14:13,705] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:14:18,581] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:14:18,581] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:14:20,192] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:14:21,847] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:14:21,847] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:14:21,906]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:14:21,906] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:14:23,069] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:14:23,070] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:14:23,070] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:14:23,126]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:18:00,148] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:18:04,937] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:18:04,937] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:18:05,817] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:18:07,282] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:18:07,282] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:18:07,339]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:18:07,339] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:18:08,343] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:18:08,345] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:18:08,345] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:18:08,396]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:23:38,526] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:23:43,356] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:23:43,356] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:23:44,977] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:23:45,900] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:23:45,900] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:23:45,955]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:23:45,955] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:23:47,171] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:23:47,171] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:23:47,171] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:23:47,222]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:23:54,381]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:25:03,199] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:25:08,034] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:25:08,034] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:25:09,537] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:25:12,333] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:25:12,334] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:25:12,413]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:25:12,413] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:25:13,870] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:25:13,871] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:25:13,871] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:25:13,924]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:25:24,609]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:39:55,959] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:40:00,184] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:40:00,184] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:40:01,677] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:40:03,898] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:40:03,898] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:40:03,953]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:40:03,953] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:40:04,373] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:40:04,374] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:40:04,374] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:40:04,423]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:40:15,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:40:16,144] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 16:40:31,330] OS name = windows 10
+[INFO ] [2022-01-09 16:40:31,331] Driver instance name = windows 10
+[INFO ] [2022-01-09 16:41:33,228] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:41:37,936] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:41:37,937] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:41:38,905] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:41:40,440] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:41:40,440] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:41:40,492]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:41:40,493] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:41:41,558] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:41:41,558] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:41:41,558] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:41:41,608]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:41:51,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:41:52,886] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 16:42:08,059] OS name = windows 10
+[INFO ] [2022-01-09 16:42:08,059] Driver instance name = windows 10
+[INFO ] [2022-01-09 16:50:06,000] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:50:10,788] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:50:10,788] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:50:12,412] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:50:14,944] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:50:14,945] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:50:14,996]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:14,996] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:50:15,651] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:50:15,652] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:50:15,652] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:50:15,701]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:19,690]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:19,727]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:19,771]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:19,811]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:19,854]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:19,896]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:21,576]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:27,656]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:50:28,918] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 16:50:44,136] OS name = windows 10
+[INFO ] [2022-01-09 16:50:44,136] Driver instance name = windows 10
+[INFO ] [2022-01-09 16:53:18,402] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:53:23,129] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:53:23,129] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:53:24,597] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:53:26,194] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:53:26,195] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:53:26,252]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:26,252] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:53:27,353] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:53:27,354] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:53:27,354] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:53:27,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:27,418] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 16:53:27,665] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-09 16:53:27,734] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-09 16:53:27,802] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-09 16:53:28,619] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-09 16:53:28,692] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-09 16:53:28,756] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-09 16:53:29,901] MyAccount - Step 08: Verify update Gender Female success
+[INFO ] [2022-01-09 16:53:29,949]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:29,949] MyAccount - Step 09: Verify update FirstName to Automation success
+[INFO ] [2022-01-09 16:53:29,981]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:29,981] MyAccount - Step 10: Verify update LastName to Testing success
+[INFO ] [2022-01-09 16:53:30,013]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:30,013] MyAccount - Step 11:  Verify update Birthday to 22-July-1999 success
+[INFO ] [2022-01-09 16:53:30,156]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:30,231]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:30,571]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:30,571] MyAccount - Step 12:  Verify update AutomationFC success
+[INFO ] [2022-01-09 16:53:30,599]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:53:30,601] OS name = windows 10
+[INFO ] [2022-01-09 16:53:30,601] Driver instance name = windows 10
+[INFO ] [2022-01-09 16:54:26,898] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:54:31,508] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:54:31,509] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:54:33,156] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:54:35,763] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:54:35,763] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:54:35,820]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:35,820] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:54:36,369] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:54:36,370] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:54:36,370] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:54:36,416]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:36,424] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 16:54:36,672] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-09 16:54:36,748] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-09 16:54:36,826] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-09 16:54:37,644] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-09 16:54:37,715] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-09 16:54:37,774] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-09 16:54:38,408] MyAccount - Step 08: Verify update Gender Female success
+[INFO ] [2022-01-09 16:54:38,456]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:38,456] MyAccount - Step 09: Verify update FirstName to Automation success
+[INFO ] [2022-01-09 16:54:38,490]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:38,490] MyAccount - Step 10: Verify update LastName to Testing success
+[INFO ] [2022-01-09 16:54:38,522]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:38,522] MyAccount - Step 11:  Verify update Birthday to 22-July-1999 success
+[INFO ] [2022-01-09 16:54:38,655]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:38,736]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:39,057]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:39,057] MyAccount - Step 12:  Verify update AutomationFC success
+[INFO ] [2022-01-09 16:54:39,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:54:39,089] OS name = windows 10
+[INFO ] [2022-01-09 16:54:39,089] Driver instance name = windows 10
+[INFO ] [2022-01-09 16:55:20,959] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 16:55:25,648] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 16:55:25,648] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 16:55:27,237] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 16:55:28,221] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 16:55:28,221] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 16:55:28,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:28,274] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 16:55:29,288] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 16:55:29,288] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 16:55:29,288] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 16:55:29,344]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:29,350] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 16:55:29,598] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-09 16:55:29,670] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-09 16:55:29,731] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-09 16:55:30,576] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-09 16:55:30,648] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-09 16:55:30,707] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-09 16:55:31,267] MyAccount - Step 08: Verify update Gender Female success
+[INFO ] [2022-01-09 16:55:31,317]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:31,317] MyAccount - Step 09: Verify update FirstName to Automation success
+[INFO ] [2022-01-09 16:55:31,349]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:31,349] MyAccount - Step 10: Verify update LastName to Testing success
+[INFO ] [2022-01-09 16:55:31,384]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:31,384] MyAccount - Step 11:  Verify update Birthday to 22-July-1999 success
+[INFO ] [2022-01-09 16:55:31,530]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:31,609]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:31,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:31,979] MyAccount - Step 12:  Verify update AutomationFC success
+[INFO ] [2022-01-09 16:55:32,013]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 16:55:35,987] OS name = windows 10
+[INFO ] [2022-01-09 16:55:35,987] Driver instance name = windows 10
+[INFO ] [2022-01-09 17:07:17,067] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 17:07:21,844] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 17:07:21,844] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 17:07:23,305] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 17:07:25,493] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 17:07:25,494] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 17:07:25,557]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:25,557] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 17:07:26,574] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 17:07:26,575] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 17:07:26,575] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 17:07:26,622]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:26,629] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 17:07:26,883] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-09 17:07:26,951] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-09 17:07:27,012] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-09 17:07:27,860] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-09 17:07:27,927] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-09 17:07:27,984] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-09 17:07:29,400] MyAccount - Step 08: Verify update Gender Female success
+[INFO ] [2022-01-09 17:07:29,446]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:29,446] MyAccount - Step 09: Verify update FirstName to Automation success
+[INFO ] [2022-01-09 17:07:29,486]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:29,486] MyAccount - Step 10: Verify update LastName to Testing success
+[INFO ] [2022-01-09 17:07:29,519]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:29,520] MyAccount - Step 11:  Verify update Birthday to 22-July-1999 success
+[INFO ] [2022-01-09 17:07:29,673]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:29,765]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:30,084]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:30,084] MyAccount - Step 12:  Verify update AutomationFC success
+[INFO ] [2022-01-09 17:07:30,113]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:36,971]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:37,008]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:37,041]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:37,077]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:37,108]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:37,142]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:38,713]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:07:55,198] OS name = windows 10
+[INFO ] [2022-01-09 17:07:55,198] Driver instance name = windows 10
+[INFO ] [2022-01-09 17:09:11,128] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 17:09:15,846] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 17:09:15,846] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 17:09:17,459] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 17:09:21,156] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 17:09:21,157] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 17:09:21,221]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:21,221] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 17:09:22,768] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 17:09:22,769] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 17:09:22,769] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 17:09:22,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:22,844] MyAccount - Step 01: Edit Gender
+[INFO ] [2022-01-09 17:09:23,104] MyAccount - Step 02: Edit First Name
+[INFO ] [2022-01-09 17:09:23,175] MyAccount - Step 03: Edit Last Name
+[INFO ] [2022-01-09 17:09:23,247] MyAccount - Step 04: Edit Date of Birth
+[INFO ] [2022-01-09 17:09:24,110] MyAccount - Step 05: Edit Email
+[INFO ] [2022-01-09 17:09:24,193] MyAccount - Step 06: Edit Company Name
+[INFO ] [2022-01-09 17:09:24,261] MyAccount - Step 07: Click Save button
+[INFO ] [2022-01-09 17:09:24,921] MyAccount - Step 08: Verify update Gender Female success
+[INFO ] [2022-01-09 17:09:24,995]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:24,995] MyAccount - Step 09: Verify update FirstName to Automation success
+[INFO ] [2022-01-09 17:09:25,036]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:25,036] MyAccount - Step 10: Verify update LastName to Testing success
+[INFO ] [2022-01-09 17:09:25,077]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:25,078] MyAccount - Step 11:  Verify update Birthday to 22-July-1999 success
+[INFO ] [2022-01-09 17:09:25,298]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:25,397]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:25,830]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:25,830] MyAccount - Step 12:  Verify update AutomationFC success
+[INFO ] [2022-01-09 17:09:25,867]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:35,050]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:35,096]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:35,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:35,189]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:35,239]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:35,284]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:37,299]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:43,689]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 17:09:45,465] OS name = windows 10
+[INFO ] [2022-01-09 17:09:45,466] Driver instance name = windows 10
+[INFO ] [2022-01-09 20:36:53,334] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 20:36:57,478] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 20:36:57,478] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 20:36:59,003] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 20:37:00,720] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 20:37:00,720] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 20:37:00,760]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:37:00,760] Pre-condition - 07: Navigate to MyAccount Page
+[INFO ] [2022-01-09 20:37:05,998] Pre-condition - 08: Open Myaccount Page
+[INFO ] [2022-01-09 20:37:05,999] Pre-condition - 09: Open Myaccount Page
+[INFO ] [2022-01-09 20:37:06,000] Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed
+[INFO ] [2022-01-09 20:37:21,049] OS name = windows 10
+[INFO ] [2022-01-09 20:37:21,049] Driver instance name = windows 10
+[INFO ] [2022-01-09 20:40:54,333] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 20:40:58,590] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 20:40:58,590] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 20:40:59,414] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 20:41:00,984] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 20:41:00,984] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 20:41:01,028]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:41:28,193] OS name = windows 10
+[INFO ] [2022-01-09 20:41:28,194] Driver instance name = windows 10
+[INFO ] [2022-01-09 20:46:35,300] OS name = windows 10
+[INFO ] [2022-01-09 20:46:35,302] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2022-01-09 20:47:55,539] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 20:47:59,749] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 20:47:59,749] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 20:48:01,248] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 20:48:06,620] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 20:48:06,620] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 20:48:21,653] OS name = windows 10
+[INFO ] [2022-01-09 20:48:21,653] Driver instance name = windows 10
+[INFO ] [2022-01-09 20:48:49,776] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 20:48:53,855] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 20:48:53,855] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 20:48:54,678] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 20:48:57,079] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 20:48:57,080] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 20:48:57,124]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:01,537]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:21,875] OS name = windows 10
+[INFO ] [2022-01-09 20:49:21,876] Driver instance name = windows 10
+[INFO ] [2022-01-09 20:49:50,723] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 20:49:53,905] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 20:49:53,906] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 20:49:55,434] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 20:49:56,261] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 20:49:56,261] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 20:49:56,306]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:59,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:59,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:59,929] OS name = windows 10
+[INFO ] [2022-01-09 20:49:59,929] Driver instance name = windows 10

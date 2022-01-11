@@ -22,7 +22,7 @@ public class Common_01_Login extends BaseTest{
 	private HomePagePO homePage;
 	private RegisterPO registerPage;
 	private LoginPO loginPage;
-	private String emailAddress = getRandomEmail();
+	public static String emailAddress = getRandomEmail();
 	public static Set<Cookie> loginCookiePage;
 	
 	@Parameters({ "browser", "url" })
@@ -90,7 +90,7 @@ public class Common_01_Login extends BaseTest{
 		homePage = PageGeneratorManager.getHomePage(driver);
 		
 		log.info("User_01_Login - Step_17: Verify Logout button displayed");
-		verifyTrue(homePage.isLogoutButtonDisplayed("Log out"));
+		verifyTrue(homePage.isButtonByNameDisplayed("Log out"));
 		
 		log.info("User_01_Login - Step_18: Get all cookies");
 		loginCookiePage  = homePage.getAllCookies(driver);

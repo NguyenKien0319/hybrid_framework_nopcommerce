@@ -1,8 +1,5 @@
 package com.nopcommerce.register;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -48,10 +45,10 @@ public class Register_Account extends BaseTest {
 		registerPage.clickToButtonByName(driver, "Register");
 
 		log.info("Register_00 - Step_03: Verify validation error message display");
-		assertTrue(registerPage.displayedErrorMessageByText(driver, "First name is required."));
-		assertTrue(registerPage.displayedErrorMessageByText(driver, "Last name is required."));
-		assertTrue(registerPage.displayedErrorMessageByText(driver, "Email is required."));
-		assertTrue(registerPage.displayedErrorMessageByText(driver, "Password is required."));
+		verifyTrue(registerPage.displayedErrorMessageByText(driver, "First name is required."));
+		verifyTrue(registerPage.displayedErrorMessageByText(driver, "Last name is required."));
+		verifyTrue(registerPage.displayedErrorMessageByText(driver, "Email is required."));
+		verifyTrue(registerPage.displayedErrorMessageByText(driver, "Password is required."));
 	}
 
 	@Test
@@ -81,7 +78,7 @@ public class Register_Account extends BaseTest {
 		registerPage.clickToButtonByName(driver, "Register");
 
 		log.info("Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed");
-		assertTrue(registerPage.displayedErrorMessageByText(driver, "Wrong email"));
+		verifyTrue(registerPage.displayedErrorMessageByText(driver, "Wrong email"));
 	}
 
 	@Test
@@ -111,7 +108,7 @@ public class Register_Account extends BaseTest {
 		registerPage.clickToButtonByName(driver, "Register");
 
 		log.info("Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed");
-		assertEquals(registerPage.errorMessageInvalidPassword(), "must have at least 6 characters");
+		verifyEquals(registerPage.errorMessageInvalidPassword(), "must have at least 6 characters");
 	}
 
 	@Test
@@ -142,7 +139,7 @@ public class Register_Account extends BaseTest {
 
 		log.info(
 				"Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed");
-		assertTrue(registerPage.displayedErrorMessageByText(driver,
+		verifyTrue(registerPage.displayedErrorMessageByText(driver,
 				"The password and confirmation password do not match."));
 	}
 
@@ -174,7 +171,7 @@ public class Register_Account extends BaseTest {
 		registerPage.clickToButtonByName(driver, "Register");
 
 		log.info("Register_04 - Step_09: Verify register success message displayed ");
-		assertTrue(registerPage.isRegisterSuccessMessageDisplayed());
+		verifyTrue(registerPage.isRegisterSuccessMessageDisplayed());
 	}
 
 	@Test
@@ -209,7 +206,7 @@ public class Register_Account extends BaseTest {
 		registerPage.clickToButtonByName(driver, "Register");
 
 		log.info("Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed");
-		assertEquals(registerPage.errorMessageEmailExist(), "The specified email already exists");
+		verifyEquals(registerPage.errorMessageEmailExist(), "The specified email already exists");
 	}
 
 	@AfterClass(alwaysRun = true)

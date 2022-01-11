@@ -12,7 +12,7 @@ public class HomePagePO extends BasePage{
 		this.driver = driver;
 	}
 
-	public boolean isLogoutButtonDisplayed(String headerName) {
+	public boolean isButtonByNameDisplayed(String headerName) {
 		waitForElementVisible(driver, BasePageUI.HEADER_TEXT_LINK_BY_NAME, headerName);
 		return isElementDisplayed(driver, BasePageUI.HEADER_TEXT_LINK_BY_NAME, headerName);
 	}

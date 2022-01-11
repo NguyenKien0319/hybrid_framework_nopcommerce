@@ -124,7 +124,7 @@ public class Login_Account extends BaseTest{
 		homePage = PageGeneratorManager.getHomePage(driver);
 		
 		log.info("Login_06 - Step 04: Verify Logout button displayed");
-		verifyTrue(homePage.isLogoutButtonDisplayed("Log out"));
+		verifyTrue(homePage.isButtonByNameDisplayed("Log out"));
 	}
 	
 	@AfterClass(alwaysRun = true)

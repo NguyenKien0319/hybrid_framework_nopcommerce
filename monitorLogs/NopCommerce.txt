@@ -1,85 +1,11 @@
-[INFO ] [2022-01-02 21:34:23,421] ---------- START delete file in folder ----------
-[INFO ] [2022-01-02 21:34:23,422] ---------- END delete file in folder ----------
-[INFO ] [2022-01-02 21:34:23,427] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
-[INFO ] [2022-01-02 21:34:28,527] Pre-condition - 01: Open Home Page
-[INFO ] [2022-01-02 21:34:28,530] Pre-condition - 02: Navigate to RegisterPage
-[INFO ] [2022-01-02 21:34:29,156] Register_00 - Step_01: Open Register Page
-[INFO ] [2022-01-02 21:34:29,156] Register_00 - Step_02: Click to Register button
-[INFO ] [2022-01-02 21:34:29,434] Register_00 - Step_03: Verify validation error message display
-[INFO ] [2022-01-02 21:34:29,636] Register_01 - Step_01: Refresh page
-[INFO ] [2022-01-02 21:34:31,686] Register_01 - Step_02: Select Radio button: 'Male'
-[INFO ] [2022-01-02 21:34:31,957] Register_01 - Step_03: Input FirstName: 'Automation'
-[INFO ] [2022-01-02 21:34:32,047] Register_01 - Step_04: Input LastName: 'Testing'
-[INFO ] [2022-01-02 21:34:32,124] Register_01 - Step_05: Input invalid email: 'testing'
-[INFO ] [2022-01-02 21:34:32,184] Register_01 - Step_06: Input password: '123456'
-[INFO ] [2022-01-02 21:34:32,249] Register_01 - Step_07: Input confirm password: '123456'
-[INFO ] [2022-01-02 21:34:32,315] Register_01 - Step_08: Click to 'Register' button
-[INFO ] [2022-01-02 21:34:32,593] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
-[INFO ] [2022-01-02 21:34:32,656] Register_02 - Step_01: Refresh Page
-[INFO ] [2022-01-02 21:34:34,276] Register_02 - Step_02: Select Radio button: 'Male'
-[INFO ] [2022-01-02 21:34:34,554] Register_02 - Step_03: Input FirstName: 'Automation'
-[INFO ] [2022-01-02 21:34:34,621] Register_02 - Step_04: Input LastName: 'Testing'
-[INFO ] [2022-01-02 21:34:34,685] Register_02 - Step_05: Input invalid email: 'testing828448@hotmail.com'
-[INFO ] [2022-01-02 21:34:34,757] Register_02 - Step_06: Input password: '123'
-[INFO ] [2022-01-02 21:34:34,817] Register_02 - Step_07: Input confirm password: '123'
-[INFO ] [2022-01-02 21:34:34,881] Register_02 - Step_08: Click to 'Register' button
-[INFO ] [2022-01-02 21:34:35,165] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
-[INFO ] [2022-01-02 21:34:35,211] Register_03 - Step_01: Refresh Page
-[INFO ] [2022-01-02 21:34:36,790] Register_03 - Step_02: Select Radio button: 'Male'
-[INFO ] [2022-01-02 21:34:37,057] Register_03 - Step_03: Input FirstName: 'Automation'
-[INFO ] [2022-01-02 21:34:37,120] Register_03 - Step_04: Input LastName: 'Testing'
-[INFO ] [2022-01-02 21:34:37,184] Register_03 - Step_05: Input invalid email: 'testing828448@hotmail.com'
-[INFO ] [2022-01-02 21:34:37,251] Register_03 - Step_06: Input password: '123456'
-[INFO ] [2022-01-02 21:34:37,313] Register_03 - Step_07: Input confirm password: 'Automation'
-[INFO ] [2022-01-02 21:34:37,380] Register_02 - Step_08: Click to 'Register' button
-[INFO ] [2022-01-02 21:34:38,143] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
-[INFO ] [2022-01-02 21:34:38,193] Register_04 - Step_01: Refresh Page
-[INFO ] [2022-01-02 21:34:39,930] Register_04 - Step_02: Select Radio button: 'Male'
-[INFO ] [2022-01-02 21:34:40,211] Register_04 - Step_03: Input FirstName: 'Automation'
-[INFO ] [2022-01-02 21:34:40,279] Register_04 - Step_04: Input LastName: 'Testing'
-[INFO ] [2022-01-02 21:34:40,349] Register_04 - Step_05: Input valid email: 'testing828448@hotmail.com'
-[INFO ] [2022-01-02 21:34:40,432] Register_04 - Step_06: Input password: '123456'
-[INFO ] [2022-01-02 21:34:40,490] Register_04 - Step_07: Input confirm password: '123456'
-[INFO ] [2022-01-02 21:34:40,559] Register_04 - Step_08: Click to 'Register' button
-[INFO ] [2022-01-02 21:34:43,106] Register_04 - Step_09: Verify register success message displayed 
-[INFO ] [2022-01-02 21:34:43,173] Register_05 - Step_01: Click to 'Logout' button
-[INFO ] [2022-01-02 21:34:45,796] Register_05 - Step_02: Click to 'Register' button
-[INFO ] [2022-01-02 21:34:46,326] Register_05 - Step_03: Select Radio button: 'Male'
-[INFO ] [2022-01-02 21:34:46,607] Register_05 - Step_04: Input FirstName: 'Automation'
-[INFO ] [2022-01-02 21:34:46,678] Register_05 - Step_05: Input LastName: 'Testing'
-[INFO ] [2022-01-02 21:34:46,750] Register_05 - Step_06: Input invalid email: 'testing828448@hotmail.com'
-[INFO ] [2022-01-02 21:34:46,813] Register_05 - Step_07: Input password: '123456'
-[INFO ] [2022-01-02 21:34:46,878] Register_05 - Step_08: Input confirm password: '123456'
-[INFO ] [2022-01-02 21:34:46,942] Register_05 - Step_09: Click to 'Register' button
-[INFO ] [2022-01-02 21:34:48,333] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
-[INFO ] [2022-01-02 21:34:48,383] OS name = windows 10
-[INFO ] [2022-01-02 21:34:48,383] Driver instance name = windows 10
-[INFO ] [2022-01-02 21:34:49,271] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
-[INFO ] [2022-01-02 21:34:54,407] Pre-condition - 01: Open Home Page
-[INFO ] [2022-01-02 21:34:54,407] Pre-condition - 02: Navigate to Login Page
-[INFO ] [2022-01-02 21:34:55,748] Login_01 - Step 00: Open LoginPage
-[INFO ] [2022-01-02 21:34:55,750] Login_01 - Step 01: Click to Login Button
-[INFO ] [2022-01-02 21:34:56,032] Login_01 - Step 02: Verify error message displayed
-[INFO ] [2022-01-02 21:34:56,082]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-01-02 21:34:56,083] Login_03 - Step 01: Refresh Page
-[INFO ] [2022-01-02 21:34:56,847] Login_03 - Step 02: Input Email not registered
-[INFO ] [2022-01-02 21:34:56,909] Login_03 - Step 03: Click Login button
-[INFO ] [2022-01-02 21:34:57,376] Login_03 - Step 04: Verify error message displayed
-[INFO ] [2022-01-02 21:34:57,423]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-01-02 21:34:57,424] Login_04 - Step 01: Input valid Email 
-[INFO ] [2022-01-02 21:34:57,490] Login_04 - Step 02: Click Login button
-[INFO ] [2022-01-02 21:34:58,634] Login_04 - Step 03: Verify error message displayed
-[INFO ] [2022-01-02 21:34:58,675]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-01-02 21:34:58,676] Login_05 - Step 01: Input valid Email 
-[INFO ] [2022-01-02 21:34:58,748] Login_05 - Step 02: Input invalid Password
-[INFO ] [2022-01-02 21:34:58,800] Login_05 - Step 03: Click Login button
-[INFO ] [2022-01-02 21:34:59,329] Login_05 - Step 04: Verify error message displayed
-[INFO ] [2022-01-02 21:34:59,398]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-01-02 21:34:59,399] Login_06 - Step 01: Input valid Email 
-[INFO ] [2022-01-02 21:34:59,470] Login_06 - Step 02: Input valid Password
-[INFO ] [2022-01-02 21:34:59,553] Login_06 - Step 03: Click Login button
-[INFO ] [2022-01-02 21:35:00,358] Login_06 - Step 04: Open HomePage
-[INFO ] [2022-01-02 21:35:00,358] Login_06 - Step 04: Verify Logout button displayed
-[INFO ] [2022-01-02 21:35:00,410]  -------------------------- PASSED -------------------------- 
-[INFO ] [2022-01-02 21:35:00,411] OS name = windows 10
-[INFO ] [2022-01-02 21:35:00,411] Driver instance name = windows 10
+[INFO ] [2022-01-09 20:49:50,723] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-01-09 20:49:53,905] Pre-condition - 01: Open Home Page
+[INFO ] [2022-01-09 20:49:53,906] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-01-09 20:49:55,434] Pre-condition - 03: Open LoginPage
+[INFO ] [2022-01-09 20:49:56,261] Pre-condition - 05: Open Home Page
+[INFO ] [2022-01-09 20:49:56,261] Pre-condition - 06: Verify Logout button displayed
+[INFO ] [2022-01-09 20:49:56,306]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:59,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:59,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-09 20:49:59,929] OS name = windows 10
+[INFO ] [2022-01-09 20:49:59,929] Driver instance name = windows 10

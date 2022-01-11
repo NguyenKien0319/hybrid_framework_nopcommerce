@@ -182,6 +182,11 @@ public class BasePage {
 		select = new Select(getElement(driver, locator));
 		return select.getFirstSelectedOption().getText();
 	}
+	
+	public String getDropDownItem(WebDriver driver, String locator, String... params ) {
+		select = new Select(getElement(driver, getDynamicLocator(locator, params)));
+		return select.getFirstSelectedOption().getText();
+	}
 
 	public Boolean isDropDownMultiple(WebDriver driver, String locator) {
 		select = new Select(getElement(driver, locator));
@@ -467,10 +472,16 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
 	}
 
+	public void waitForElementInvisible(WebDriver driver, String locator) {
+		explicitWait = new WebDriverWait(driver, GlobalConstants.SHORT_TIMEOUT);
+		explicitWait
+				.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
+	}
+	
 	public void waitForElementInvisible(WebDriver driver, String locator, String... values) {
 		explicitWait = new WebDriverWait(driver, GlobalConstants.LONG_TIMEOUT);
 		explicitWait
-				.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(getDynamicLocator(locator, values))));
+		.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(getDynamicLocator(locator, values))));
 	}
 
 	public void sleepInMiliSecond(long timeoutSecond) {
@@ -507,10 +518,66 @@ public class BasePage {
 		sendsKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
 	}
 	
+	public void enterTextareaByID(WebDriver driver, String textareaID, String value) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTAREA_BY_ID, textareaID);
+		sendsKeyToElement(driver, BasePageUI.DYNAMIC_TEXTAREA_BY_ID, value, textareaID);
+	}
+	
 	public String getEmailValue(WebDriver driver, String attribute, String nameID ) {
 		return getElementAttributeValue(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", "Email");
 	}
 	
+	public boolean isPageTitleDisplayed(WebDriver driver, String pageTitle) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXT_PAGETITLE, pageTitle);
+		return isElementDisplayed(driver, BasePageUI.DYNAMIC_TEXT_PAGETITLE, pageTitle);
+	}
+	
+	public void selectDropDownBirthDate(WebDriver driver,String dateOfBirth, String number) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_DATEOFBIRTH, dateOfBirth);
+		selectDropDownByText(driver, BasePageUI.DYNAMIC_DATEOFBIRTH, number, dateOfBirth);
+	}
+	
+	public void selectDropDownByID(WebDriver driver, String dropDownID, String value ) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_ID, dropDownID);
+		selectDropDownByText(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_ID, value, dropDownID);
+	}
+	
+	public boolean isGenderSelected(WebDriver driver, String gender) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, gender);
+		return isElementSelected(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, gender);
+	}
+	
+	public void clickToNavigationBarByText(WebDriver driver, String navigatrionBarByID) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_NAVIGATION_BAR_BY_ID,navigatrionBarByID);
+		clickToElement(driver, BasePageUI.DYNAMIC_NAVIGATION_BAR_BY_ID,navigatrionBarByID);
+	}
+	
+	public boolean isNotificationDisplayed(WebDriver driver, String contentText) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_NOTIFICATION_TEXT, contentText);
+		return isElementDisplayed(driver, BasePageUI.DYNAMIC_NOTIFICATION_TEXT, contentText);
+	}
+	
+	public void closeNotification(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_NOTIFICATION_CLOSE);
+		clickToElement(driver, BasePageUI.DYNAMIC_NOTIFICATION_CLOSE);
+	}
+	
+	public boolean isLoadingIconClosed(WebDriver driver) {
+		waitForElementInvisible(driver, BasePageUI.DYNAMIC_PROGRESS_LOADING_ICON);
+		return isElementUnDisplayed(driver, BasePageUI.DYNAMIC_PROGRESS_LOADING_ICON);
+	}
+	
+	public void clickToQuickSearchButton(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.QUICK_SEARCH_BUTTON);
+		clickToElement(driver, BasePageUI.QUICK_SEARCH_BUTTON);
+	}
+	
+	public void clickToCheckBoxReviewRating(WebDriver driver, String rating) {
+		waitForElementClickable(driver, BasePageUI.REVIEW_RATING_CHECKBOX, rating);
+		checkTheCheckBoxOrRadio(driver, BasePageUI.REVIEW_RATING_CHECKBOX, rating);
+	}
+	
+
 	private WebDriverWait explicitWait;
 	private Select select;
 	private JavascriptExecutor jsExecutor;
